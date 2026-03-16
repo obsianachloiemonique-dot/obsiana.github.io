@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Section Layout Example</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#800000;
+    margin:0;
+}
+
+/* Section styling */
+section{
+    padding:40px;
+    margin:30px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Headings with rounded background */
+.section-title{
+    display:inline-block;
+    background:#800000;
+    color:white;
+    padding:10px 25px;
+    border-radius:30px;
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+/* Text boxes */
+.text-box{
+    background:#ff8a8a;
+    padding:20px;
+    border-radius:15px;
+    margin-top:15px;
+    line-height:1.6;
+}
+
+/* Different colors */
+.box2{
+    background:#ffa9a9;
+}
+
+.box3{
+    background:#fc7676;
+}
+
+</style>
+</head>
+
+<body>
+
+<section>
+<div class="section-title">LESSON 1</div>
+
+<div class="text-box">
+<p>
+<dl>
+<dt>css</dt>
+<dd>-cascading style sheet</dd>
+<dd>-used to design web pages</dd>
+<dt>layers of a webpage</dt>
+<dt>content layer<dt>
+<dd>-the content layer is the underlying code of a page</dd>
+<dd>-defines and layout the text, images, animation, sound, video and everything you want to put in a web page with the use of tags
+presentation layer</dd>
+<dd>-where you can define how people see your web page in a browser</dd>
+<dd>-this includes the ability of the webpage to work and its appearance to the users.</dd>
+<dt>behavior layer</dt>
+<dd>-where you have a real-time useinteraction with the web page. The interaction may be simple validation of input or filling out a form or even abig as web-based programs.</dd>
+<dd>-this includes the functionality of the elements in your webpage</dd>
+</dl>
+In lesson 1, I learned about css and its purpose and benefits; css is used for designing webpages and making it look good. I also learned bout all layes of a webpage and their function in awebpage; the content layer includes the texts, image, videos, audio etc., the presentstion layer is how the users see the webpage, while the beahavior layer is the interaction between the users and your webpage, such as filling out the forms.
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 2</div>
+
+<div class="text-box box2">
+<p>
+In lesson 2, I learned about the structure of CSS and the three kinds of stylesheets; The external stylesheet is the most global one and it can affect all the pages, the embedded stylesheet is document-wide and can affect one page, while internal stylesheet override external and embedded, it is used for isolated changes to headers, paragraphs and other elements.
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 3</div>
+<div class="text-box box3">
+<p>
+In lesson 3, I learned about display properties; the block-level displays text vertically, while the inline-level displays text horizontally. I also learned about div and span tag and its attribute 'class'; the div tag is used for adding styles for block-level elements like paragraphs, while the span tag is used for adding styles to inline-level elements. The class attribute indicates the style to be applied.
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 4</div>
+<div class="text-box">
+<p>In lesson 4, I learned about classes; classes are used for formatting texts and it allows you to apply the same style to many html elements. Classes can be used for different elements and you can use more than one class to an element. I also learned that you can have classes for a specific element like p.classname, it can only be used for paragraphs.
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 5
+</div>
+
+<div class="text-box box2">
+<p>
+In lesson 5, I learned about css selectors; selectors are used in external stylesheets, they have an external file. Selectors have 6 types; Class selectors, Element selector or Tag selector, ID selector, Universal selector, Group selector and Attribute selector. CSS selectors are used to “find” or “select” the HTML elements that you want to style.
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 6</div>
+<div class="text-box box3">
+<p>In lesson 6, I learned about dimensions; dimension are used to manage visibility, height and width of different HTML elements. There are also Pseudo-classes arent user-defined and are used for specific HTML elements only. Example is the anchor element which has four pseudo-classes; the Link, Hover, Visited and Active which have a specific order which is LVHA.
+</p>
+</div>
+</section>
+
+ <button onclick="history.back()">⬅ Back</button>
+
+    <!-- Home Button -->
+    <a href="eport4th.html">
+        <button>🏠 Home</button>
+    </a>
+
+</body>
+</html>
+

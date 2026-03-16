@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Section Layout Example</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#800000;
+    margin:0;
+}
+
+/* Section styling */
+section{
+    padding:40px;
+    margin:30px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Headings with rounded background */
+.section-title{
+    display:inline-block;
+    background:#800000;
+    color:white;
+    padding:10px 25px;
+    border-radius:30px;
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+/* Text boxes */
+.text-box{
+    background:#ff8a8a;
+    padding:20px;
+    border-radius:15px;
+    margin-top:15px;
+    line-height:1.6;
+}
+
+/* Different colors */
+.box2{
+    background:#ffa9a9;
+}
+
+.box3{
+    background:#fc7676;
+}
+
+</style>
+</head>
+
+<body>
+
+<section>
+<div class="section-title">LESSON 1</div>
+
+<div class="text-box">
+<p>
+<dl>
+<dt>Purpose
+</dt>
+<dd>-To create dynamic, interactive user experiences, handling everything from UI rendering (like React for Facebook) and content loading to real-time updates, personalized feeds, video controls (captions, volume), and tracking user activity (Meta Pixel).
+Examples</dd>
+
+<dt>static web page</dt> 
+<dd>-sometimes called a flat page or a stationary page, is a web page that is delivered to a web browser exactly as stored. Example: Photographer’s portfolio</dd>
+
+<dt>dynamic website</dt>
+<dd>-type of website that displays different content and interacts with users based on their actions, preferences, or other variables. Example: Social Media Platforms</dd>
+
+<dt>JavaScript</dt>
+<dd>-The MOST popular & widely used scripting language on the internet. 
+Recognized & works in all major browsers.</dd>
+<dd>-Developed by Brendan Eich of Netscape under the name Mocha, which was later renamed to LiveScript.
+Opened to Internet Explorer in 1996. </dd>
+<dd>-Enhances webpages and can be used to build video games.</dd>
+<dd>-A trademark of the Oracle Corporation and is licensed for use to other entities like Mozilla Foundation.</dd>
+<dd>-A client-side, high-level scripting, interpreted & object-oriented. </dd>
+
+<dt>Client-side</dt> 
+<dd>–the codes and formulas are processed right on the user’s own computer.</dd>
+<dt>High-level scripting</dt> 
+<dd>–codes are written in words that are close to English as possible. </dd>
+
+<dt>Interpreted</dt>
+<dd>-the program is passed as source code then converted into machine code.</dd>
+
+<dt>Designed to add interactivity and functionality to the Web site. Thus making the contents more dynamic and the elements are enhanced.
+Case-sensitive. </dt>
+<dt>Semi-colons at the end if each statement are not required.</dt>
+
+<dt>What can JavaScript do?</dt>
+<dd>-Can react to events – certain events such as mouse clicks, and pre-loading of webpage can lead to executing codes written in JavaScript. </dd>
+<dd>-Can react to events </dd>
+<dd>-Can be used to validate data </dd>
+<dd>-Can be used to create cookies </dd>
+<dd>-Can enhance a webpage.</dd>
+
+<dt>Events </dt>
+<dd>-These are mouse clicks, and pre-loading of webpage that can lead to executing codes within JavaScript. </dd>
+<dt>Form Validation </dt>
+<dd>-A form requires user input, instead of using server side scripting, JavaScript can be used to validate it and thus save processing time. </dd>
+<dt>Cookies</dt> 
+<dd>-Used to save or retrieve information from a visitor’s computer. This can be used to monitor the visitor’s internet habits and preferences. </dd>
+
+
+<dt>Features of JavaScript </dt>
+<dd>
+<ul>
+<li>Supports all structured programming syntax in C </li>
+<li>Has dynamic typing, the value of the variable is dependent on what the value was assigned to it even during run time, the type can still change.</li>
+<li>Can run locally in a Web site, so interaction within the user and the site is faster or more responsive.</li>
+<li>Can detect user actions, such as mouse clicks, which HTML could not do alone.</li>
+<li>Can be combined with CSS to produce DHTML. DHTML can make site more flexible by adding effects such as message scrollers, mouse trails and falling snow.</li>
+</ul>
+</dd>
+
+<dt>Characteristics of JavaScript</dt>
+<dd>
+<ul>
+<li>Quick to download effects</li>
+<li>No need for any extra tools to write</li>
+<li>License-free</li>
+<li>Has a thriving and supportive online community of JavaScript developers and information resources</li>
+</ul>
+</dd>
+<dt>
+Disadvantages of JavaScript</dt>
+<dd>
+<ul>
+<li>Some browsers do not support JS. Examples are PDA and mobile phones do not execute JS. Some browsers disable execution of JS as a security precaution.</li>
+<li>Any secret embedded in JS could be extracted by a determined adversary</li>
+<li>JS and DOM (Document Object Model) provide potential for malicious authors to deliver scripts to run on a client computer via web.</li>
+<li>Web site authors cannot perfectly conceal how their JS operates because the code is sent to the client.</li>
+<li>Source codes that have been deliberately made hard to understand can be reverse engineered so your codes are still exposed to possible threat.</li>
+</ul>
+</dd>
+
+<dt>Note</dt>
+<dd>-A script is a set of computer instructions or commands that puts together or connects existing components to accomplish a new related task. JavaScript is a powerful scripting language used to create web functionalities. A text editor and a web browser are the tools needed in JavaScripting. The basic components of JavaScript language are objects, methods and properties.</dd>
+
+<dt>How to start using JavaScript</dt>
+<dd>-is used to connote JavaScript. We use the type attribute to define the scripting language and identify its version. To display an output in a web page, the document.write command should be used.</dd>
+</dl>
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 2</div>
+
+<div class="text-box box2">
+<p>
+<dl>
+<dt>
+Where can you place Scripts? </dt>
+<dd>-There are times when we want to execute the codes depending on the situation. It could be pre-loaded, or to be triggered whenever an event happens. This is possible in JavaScript. You can control the execution of the codes by placing it in different sections of the HTML file. </dd>
+<dt>HEAD</dt>
+<dd>-Whenever the scripts are placed here, you are assured that they will be pre-loaded – it means the scripts will be executed before anyone triggers an event. Scripts are ideally placed here are for functions calls.</dd>
+<dt>BODY</dt>
+<dd>-Scripts that are placed here are executed when the page loads.</dd>
+<dt>HEAD & BODY</dt>
+<dd>-You can place your script tags whenever and how many you want to.</dd> 
+
+<dt>EXTERNAL JAVASCRIPT </dt>
+<dd>-External JavaScript files are helpful especially if you are using them to control different HTML files. There is no need to rewrite them all over again. Save the file having an extension of .js. To use the JavaScript file, all you have to do is use the src attribute and provide the destination of the file. </dd>
+<dd>-The src attribute will point to the source of the JavaScript external file. Take note that the JavaScript file does not contain the opening and closing script tags.</dd>
+<dd>-<script type=“text/JavaScript” src=“myJavaScript.js”></script></dd>
+<dd>-There are times when you want to add a statement to explain a set of codes, or when we want to omit certain codes for debugging purposes, this can be done by inserting a comment. For single comments, you can use two backlash symbols; for multiple line or block comments, start with a /* and end with a */.</dd>
+
+<dt>What are the JavaScript Guidelines?</dt>
+<dd>-In coding JS, it is important to know the Do’s and Don’ts. This will save you time and keep you away from trouble in case errors occur. Listed below are the guidelines. </dd>
+<ul>
+<li>Case Sensitive</li>
+<li>White Space</li>
+<li>Breaking up of code lines</li>
+</ul>
+
+<dt>Case Sensitive</dt> 
+<dd>-You must be careful in naming your variables. The variable myHome is not equal to MyHome. It is important to keep track of your variables so there won’t be problems in calling variables, objects or functions. Unlike in HTML, uppercase letters are not equivalent to lowercase letters in JavaScript.</dd>
+
+<dt>White Space </dt>
+<dd>-JavaScript ignores white space as long as it is within the line of the code. It is a good practice to use white spaces between expressions to make your codes easier to read</dd>
+
+<dt>Breaking up of codes </dt>
+<dd>-You can break a code line by using a backslash (‘\’). However, do not break the code in between commands or else it will not work properly. </dd>
+</dl>
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 3</div>
+<div class="text-box box3">
+<p>
+Characteristics of JavaScript
+<dl>
+<dt>1. Interpreted Language </dt>
+<dd>-it is an interpreted language due to the fact that it requires a browser to run. JS was created to work together with HTML and requires a web browser in order to run. JS source code can easily be seen when you view the source code of a JSenabled webpage.</dd>
+<dt>2. Scripting Language</dt>
+<dd>-scripting languages are treated like programming languages but they are normally created to perform simple repetitive tasks. They do not come with their own interfaces but they provide instructions to other programs on what to do. JS does not contain the program on how the whole webpage looks like, we can use it to change certain elements of the webpage through the browser.</dd>
+<dt>3. Client-Side Scripting</dt>
+<dd>-there are basically two kinds of scripting for the web – client-side and server-side. The key difference between these scripts is the location to which they are executed. A server-side script is executed on the actual server machine that hosts the webpage while a client-side script is executed on the very machine that you are using.</dd> 
+<dt>4. Object-Oriented Programming </dt>
+<dd>-another advantage of JS is that it presents to you many things as objects and lets you easily manipulate them. OOP is a programming style that treats every element in a system as an object. In OOP, each object has its associated functions called methods which are the things that objects know how to do.</dd>
+
+The Key in Understanding JavaScript
+<ul>
+<li>Learn at an optimal pace and do a lot of practice. </li>
+<li>Understand the concepts of objects. </li>
+<ul><li>Objects – are items that exist in the browser. The browser window, the page itself, the status bar, and the date and time stored in the browser are all objects</li>
+<li>Methods – are actions to be performed on or by an object. Methods also represent functions that are designed for specific purposes like doing math or parsing strings. </li>
+<li>Properties – are an existing subsection of an object. It is also important to learn these basic concepts in programming.</li>
+<li>Event - something which happens or which is done such as loading a page, holding a mouse over a link, or clicking a link. You can actually write scripts and set them to execute when a specific event occurs. </li>
+<li>Parameter – data or other objects which describe the characteristics of an object.</li>
+<li>Type - type of variable such as integer, string, floating point or Boolean. </li>
+<li>Type conversion - the act of converting a variable from one type to another</li>
+</ul>
+</ul>
+
+<dt>A script</dt>
+<dd>-set of computer instructions or commands that puts together or connects existing components to accomplish a new related task. JS is a powerful scripting language used to create web functionalities. A text editor and a web browser are the tools needed in Jscripting. The basic components of JS are objects, methods and properties. </dd>
+
+<dt>Commonly Used Properties and Methods </dt>
+
+Window<ul>
+<li>the window object is the main object. Many of the window-object properties are objects in their own right such as document, frame, and location. There is no need to write the object name, window, since it is understood. </li>
+<li>Sample: <ul>
+<li>Location – to go to a new location </li>
+<li>Open – to open a new window </li>
+<li>setTimeout– to set a time interval before activating an event</li>
+</ul></li>
+</ul>
+
+
+Document<ul>
+<li>the document object is derived from the window object. It is the container for all HTML, HEAD and BODY objects associated within the HTML tags of the HTML documents. You need to write the object name to use these methods. </li>
+<li>Sample: <ul>
+<li>fgColor – to set the document foreground color </li>
+<li>cookie – to read the information stored in the cookie text file</li>
+</ul></li>
+</ul>
+
+<dt>Sample (document): </dt>
+<dd>-write – to display a message</dd> 
+<dd>-lastModified – to display the date it was last modified. </dd>
+
+<dt>Math</dt> <dd>–the math object provides the capability to perform math operations.</dd>
+<dd>-Sample: PI - has the value of PI</dd>
+
+<dt>Sample (math): <dt>
+<dd><ul>
+<li>pow (a,b) – takes the value of a to the power of b </li>
+<li>max (a,b) – returns the larger value between a and b </li>
+<li>min (a,b) – returns the smaller value between a and b </li>
+</ul>
+</dd>
+
+
+<dt>Navigator</dt> 
+<dd>-the navigator object determines which browser is running.</dd>
+
+<dt>Sample (navigator): </dt>
+<dd>
+<ul>
+<li>appName – to determine the browser’s code name </li>
+<li>appVersion – to determine the browser’s release version</li> 
+<li>cookieEnabled – to determine whether cookies are enabled or not </li>
+<li>platform – a description of the operation system.</li>
+</ul>
+</dd>
+
+<dt>Javascript Objects, Methods, Properties and Events</dt>
+
+<dt>Parsing</dt> 
+<dd>-the process of analyzing data (usually a string of text) and converting it into a structured, internal format that the JavaScript engine can understand, manipulate, and execute. </dd>
+
+<dt>Syntax Guides</dt>
+<ul>
+<li>In order for the HTML document to identify JS as rthescripting language used, it is necessary to include language=“JavaScript” </li>
+<li>The syntax for manipulating an object by using a method or property is always Object.Method() or Object.Property(). The parentheses () are called the instance.</li>
+<li>JS is case-sensitive. For example; if you called the function warning() but you typed Warning(), you’ll encounter and error since the entry is incorrect. Another example is the bgColor property. If you don’t type it like this, you’ll get an undefined result</li>
+<li>JS is processed from top to bottom. The 1st one on the page is processed first while the script at the end is processed last. We can pre-load the script by placing it within the tags. Elements of this script can be executed before any other script embedded in the HTML. </li>
+<li>Quotes are used to tell the browser what is to be displayed exactly as it is written in the script. Hence, don’t place variables inside quotes; otherwise, the variable name will be displayed instead of the value assigned.</li>
+<li>Quotes may be single quote (‘) or double quote (“). Remember to use them consistently, especially when embedded within each other. </li>
+<li>You can add comments using ”//” for a single line of comment or you may enclose your multiple-line comment between “/*” and “*/” .</li>
+<li>Use the symbol + to concatenate a string. </li>
+<li>Statements may contain a semicolon at the end of them. However, this is not necessary in JS unless there are multiple statements in one line. In this case, you must separate multiple statements in a single line by using semicolon. But it is always good programming practice to use a semicolon to end a statement.</li>
+</ul>
+
+<dt>Variable</dt> 
+<dd>-is a symbolic representation denoting a quantity or expression. </dd>
+<dd>-It represents a place where a quantity can be stored. It is a value hat has the property being associated with another value. </dd>
+<dd>Container that contains a value, which can change as required.</dd>
+
+<dt>Data Types </dt>
+<dd>
+Some of the data types that a JS variable may contain: 
+<ul>
+<li>Character – any single character or symbol such as x, ‘@’, ‘y’, etc. </li>
+<li>String – a series of combination of characters like “somevariable” or “64kgold” </li>
+<li>Integer – number of the set Z = {…, -2, -1, 0, 1, 2,…} </li>
+<li>Float (or double) – any decimal number like 97.1 or -97.1</li>
+<li>Boolean – truth values. This can either be TRUE or FALSE. </li>
+<li>Function – set of instructions or arguments </li>
+<li>Object – items that exist in the browser that once can manipulate</li> 
+<li>Array – a type of object that contains a set of values that are mapped into keys</li>
+<li>Undefined – a variable that has not been given a value yet </li>
+<li>Null – a variable that has been defined but has been assigned the value of null</li>
+</ul></dd>
+
+<dt>Declaring Variables</dt>
+<dd>-declared with a var statement.</dd>
+<dd>-always good practice to pre-define your variables using var. If you declare a variable inside a function</dd>
+<dd>-can be accessed anywhere within the function.</dd>
+
+<dt>Rules for Naming Variables</dt>
+<dd>
+<ul>
+<li>Variables can contain any letter of the alphabet, digits 0-9, and the underscore character. </li>
+<li>There should be no spaces in between characters. </li>
+<li>It should not have punctuation characters (ex. Comma, full stop, etc.) </li>
+<li>The first character of a variable name cannot be a digit. </li>
+<>li>Variable names are case-sensitive. Hence firstname and Firstname are two different variables.</li>
+</ul>
+</dd>
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 4</div>
+<div class="text-box">
+<p>
+<dl>
+<dt>
+What are Events?</dt> 
+<dd>-Events are actions that are triggered either by mouse click, function calls, keyboard strokes, loading of images, submitting an HTML form, etc. </dd>
+<dd>-Events are usually used in connection with functions. Functions will not work without a force that will trigger it.</dd>
+Table of Event Triggers
+<dt>onload and onunload </dt>
+<dd>The onload and onunload events are triggered when a user enters or exits a Web page. The onload event can be used to check the Web browser version type and version. The onload and onunload events can also be used to store and retrieve cookies. A cookie is a message given to a Web browser </dd>
+<dt>onfocus, onblur and onchange </dt>
+<dd->these attributes are often used with the validation of fields in a form. </dd>
+<dt>onsubmit 
+<dd>-This attribute is used to validate all fields in the form before submitting it.
+<dt>onmouseover and onmouseout </dt>
+<dd>-These attributes are usually used for animation purposes. Take for example, a button or link in a Web page. When the mouse is over it, it will display a different image, however, when you remove the mouse, the button is set back to what it was. </dd>
+<dt>onclic</dt>
+<dd>-This is usually used to connect you to another webpage or to trigger an event call. Take for example, a button in a Web page. If that button is pressed, it will trigger a function that will call a popup button.</dd>
+<dt>What are Popup Boxes?</dt>
+<dd>-Popup boxes are those windows that pop-out of your screen. They could be before a page is fully loaded, effect of an event on a page or before leaving a page. JavaScript has three kinds of popup boxes; alert box, user-input prompt box and confirm box. These popup boxes can be useful in warning the user, gathering user input or simply to verify something.</dd>
+<dt>Alert Box </dt>
+<dd>-this is usually used when you want to make sure that the user reads your message such as warning or a greeting. 
+Syntax: alert(“message”);</dd>
+<dt>User-Input Prompt Box</dt> 
+<dd>-This is usually used when you want data to be prompted first before the user can enter a page. The user will have to choose either “ok” or ”cancel” to continue. If the user chooses “ok”, the prompt box will return the encoded value, else, it will return null. 
+Syntax: prompt(“message”,”defaultvalue”);</dd>
+<dt>Confirm Box </dt>
+<dd>-This is usually used when you want the user to verify or accept something. The user will have to choose either “ok” and “cancel”. If “ok” was chosen, the confirm box will return true; else, it will return false. 
+Syntax: confirm(“message”);</dd>
+<dt>What is a Variable? </dt>
+<dd>-A variable is a temporary storage of values and expressions. Expressions are formulae that use mathematical symbols and numbers or a way to assign values to a variable. For example, x=1+3 is an expression and the value o=f x will hold the sum of one plus three which is four.</dd>
+
+<dt>In declaring a variable, there are certain rules to follow: </dt>
+<dd><ul>
+<li>Variable names are case-sensitive – an uppercased variable such as “X” is different from a lowercase variable “x”. </li>
+<li>Variable names must begin with a letter or underscore (“_”). </li>
+<li>The rest of the name must consist of letters, numbers or underscores. </li>
+<li>Avoid naming variables using reserved words. Reserved words are words reserved by JavaScript for it own use. </li>
+</ul></dd>
+
+<dt>Take note: if you do not declare a variable and you give the variable a value, the variable will automatically be declared</dt>
+<ul>
+<li>Variables can hold numbers, expressions or string literals. </li>
+<li>String literals are text enclosed in pairs of quotation marks. Numeric digits are inside the quotation marks will be considered as string and will lose then its numeric value </li>
+<li>If the characters are not enclosed in quotation marks, JS might interpret the characters as an object or a function. </li>
+<li>To declare a variable, use the keyword var then the variable name equal to its value/expression. </li>
+<li>JS variables are loosely typed, so data types are not required to be defined in advance. This feature is an advantage since it can adapt its data type from the kind of value assigned to it. It can be an integer, string Boolean, etc. It can change during runtime; however, be careful in assigning values because it you make a mistake, it will be hard to detect such kind of errors. </li>
+<li>Boolean is a fundamental data type in programming that represents one of two possible values: true or false. It is used to represent logical truth values, acting as the foundation for decision-making in code, such as determining which path a program should follow.</li>
+</ul>
+<ul>
+<li>JS uses the same arithmetic operations as in most programming languages, like C. An arithmetic operator is a symbol used to tell the expression what kind of operation will be done.</li>
+<li>The addition symbol (‘+’) can also be used to add strings or text values together – this is called concatenation. However, if you add a string and a numerical value, the result will still be a string</li>
+<li>Remember the order of precedence when dealing with expressions. Innermost parentheses come first, then the outer parentheses are evaluated followed by multiplication, division or modulus operation. The addition or subtraction symbol is taken into consideration last.</li>
+<li>The ++ and – operator can be used in several different ways; however, the answer will depend on how you use it. If you use it independently, x++; it will have the same result as ++x. If these operators are used in a formula or an expression, they will have an impact on the result. Avoid using these operators if you do not fully understand how to use them</li>
+</ul>
+<dt>
+What are Comparison Statements?</dt>
+<dd>-Comparison statements are used to evaluate the quality or the difference between variables or values.</dd>
+<dt>Logical Operators</dt>
+<dd>-used to determine the logic between expressions, variables, or values. It is usually used by two or more expressions to satisfy the needed conditions.</dd>
+
+<dt>JS also has its own conditional operator that automatically assigns a value depending on the result of the condition. </dt>
+<dd>Syntax for conditional statements:
+<ul>
+<li>variablename=(condition)?value1:value2</li>
+<li>myFavorite=(color==“pink”)?”Terrific”:”Change color”;</li>
+</ul>
+</dd>
+
+<dt>Conditional statements are used to perform different operations based on the set conditions. There are different kinds of conditional statements. These are: </dt>
+<dd><ul>
+<li>if statement – used to check if a specified condition is true. </li>
+<li>if-else statement – used to check if the condition is true and performs an action if the condition is false. </li>
+<li>if-else if.else statement – used to check if one or more blocks of code can be executed. • switch statement – used if you want to select one of many blocks of code to be executed.</li>
+</ul></dd>
+
+<dt>The if block will execute the codes that are within the set of braces, if the condition is satisfied. Additionally, if the code to be executed is only made up of a single line, there is no need to enclose it in braces.</dt>
+
+<dt>Note: The else if statement executes codes other than the prior conditions. The else statement will be the last choice – that is, if there are no conditions that were met, it will fall under the else block. The JS Switch statement function like the if statement. It is a conditional statement; however, only one variable is taken into consideration and bears the condition. You can also use it to select one or more blocks of code to be executed. To prevent it from continuously executing other blocks of code after it, you must use the break statement. </dt>
+</dl>
+</p>
+</div>
+</section>
+
+ <button onclick="history.back()">⬅ Back</button>
+
+    <!-- Home Button -->
+    <a href="eport4th.html">
+        <button>🏠 Home</button>
+    </a>
+
+</body>
+</html>
+
+

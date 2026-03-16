@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Links</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #800000;
+        margin: 0;
+        text-align: center;
+    }
+
+    h1 {
+        color: white;
+        margin-top: 30px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 250px;
+        border-radius: 20px;
+        overflow: hidden;
+        background: white;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px) scale(1.05);
+    }
+
+    .card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .card a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 15px;
+        font-weight: bold;
+    }
+
+    .card a:hover {
+        color: #1abc9c;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>ICT</h1>
+
+<div class="container">
+
+    <!-- Image Link 1 -->
+    <div class="card">
+        <a href="ict.html">
+            <img src="2nd.jfif" alt="Page 1">
+            Go to 2nd QTR
+        </a>
+    </div>
+
+    <!-- Image Link 2 -->
+    <div class="card">
+        <a href="ict2.html">
+            <img src="4th.jpg" alt="Page 2">
+            Go to 4th QTR
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>E-PORTFOLIO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  padding: 40px;
+  text-align: center;
+  color: white;
+  background-image: url("gingham.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+/* Navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a, .navbar button {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover, .navbar button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Images */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.fakeimg img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px white;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a, .navbar button {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Welcome!</h1>
+  <p>to Chloie's website</p>
+</div>
+
+<div class="navbar">
+  <button onclick="history.back()">⬅ Back</button>
+  <a href="mid2.html">ICT</a>
+  <a href="mid.html">AP</a>
+  <a href="ev.html">EVENTS</a>
+  <a href="index.html" class="right">🏠 Home</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="fakeimg" style="height:400px;">
+      <img src="me.jfif" alt="me">
+    </div>
+
+    <p>Hi! I'm Chloie Monique Obsiana from 9-Fairness.</p>
+  </div>
+
+  <div class="main">
+    <h2>SOCIALIZATION</h2>
+    <h5>Fairdelity</h5>
+    <div class="fakeimg" style="height:400px;">
+      <img src="friendschool1.jfif" alt="friends">
+    </div>
+
+    <p>Formerly known as connectability; we all met through being classmates with each other, then we gradually got closer with each other, and as time pass, the circle grew. Whenever i have problems in school or personal problems that i cant solve on my own, I vent to them and asks for their advice and seeks help from them. Even though our circle got seperated and others are in different section, we still hang out from time to time. This includes me, Jadee, Taranee, Grace, Riley, Keisha, Aya, Dash, Jayzel, Kiel R., Kiel A., Cyruz, Emman, Martin and Lorraine. I hope that we would still be close after graduating because they are very special to me.</p>
+
+    <h5>Childhood Friends</h5>
+    <div class="fakeimg" style="height:400px;">
+      <img src="friends.jfif" alt="childhood friends">
+    </div>
+
+    <p>They are the friends that i grew up with, the ones who have been around since i was a child, and now our bond is still as strong as ever. They witnessed the day when I went for the first time, when I first had my crush etc. They are the people who I can always run to and tell my problems, and are very close to my heart. My childhood friends include ate Shane, Julie, Eunice, and Hannah. Despite being in different grade levels, we still are close with eachother. When im in trouble or someone is insulting me, they always stand up and fight for me.</p>
+
+    <h2>FAMILY</h2>
+    <h5>Fam and Relatives</h5>
+
+    <div class="fakeimg" style="height:300px;">
+      <img src="family1.jfif" alt="family">
+    </div>
+
+    <div class="fakeimg" style="height:300px;">
+      <img src="family2.jfif" alt="family">
+    </div>
+
+    <p>Im the second child in a family with 3 kids. We have 6 dogs and 5 cats, so our house is quite chaotic. My dad is a retired policeman, while my mom has a karinderya and they also sell vegetables and fruits, but she graduated in computer science. My ate is in grade 11, and she goes to Perpetual university in Las Pinas, while my brother is in grade 5 and he goes to Pamplona elem school unit 1. We had a reunion on my father's side on my lola's birthday this year. I met my cousins, titas, titos, tita-lolas and tito-lolos, and despite being far from each other, we are very close and got to catch up with everyone. Some of my cousins also live in the same barangay as us, so we are very close and are always together. And we created a group chat with our lola, wherein every apo is included and we video call almost everyday!</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>© 2026 Chloie's E-Portfolio</p>
+</div>
+
+</body>
+</html>

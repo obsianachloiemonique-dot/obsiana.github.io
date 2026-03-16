@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Section Layout Example</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#800000;
+    margin:0;
+}
+
+/* Section styling */
+section{
+    padding:40px;
+    margin:30px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Headings with rounded background */
+.section-title{
+    display:inline-block;
+    background:#1abc9c;
+    color:white;
+    padding:10px 25px;
+    border-radius:30px;
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+/* Text boxes */
+.text-box{
+    background:#ff8a8a;
+    padding:20px;
+    border-radius:15px;
+    margin-top:15px;
+    line-height:1.6;
+}
+
+/* Different colors */
+.box2{
+    background:#ffa9a9;
+}
+
+.box3{
+    background:#fc7676;
+}
+
+</style>
+</head>
+
+<body>
+
+<section>
+<div class="section-title">LESSON 1-Demand</div>
+
+<div class="text-box">
+<p>
+Ang demand ay tumutukoy sa dami ng produkto at serbisyong nais at kayang bilhin ng mamimili sa iba’t ibang presyo sa isang takdang panahon.
+</p>
+</div>
+
+<div class="text-box">
+<p>
+Ayon sa Batas ng Demand, kapag mababa ang presyo, mataas ang demand. Kapag mataas ang presyo, mababa ang demand.
+
+</p>
+</div>
+
+<div class="text-box">
+<p>
+Ang demand schedule ay isang talaan na nagpapakita ng inverse (di- tuwiran) na ugnayan ng presyo at quantity demanded.
+</p>
+</div>
+
+<div class="text-box">
+<p>
+<ul>
+<li>Presyo-Quantity Demanded</li>
+<li>5-10</li>
+<li>4-20</li>
+<li>3-30</li>
+<li>2-40</li>
+<li>1-50</li>
+</ul
+</p>
+</div>
+
+<div class="text-box">
+<p>
+Ang demand curve ay isang grapikong paglalarawan ng d-tuwirang ugnayan ng presyo at quantity demanded.
+</p>
+</div>
+
+<div class="text-box">
+<p>
+Ang demand function ay isang matematikong pamamaraan na nagpapakita ng magkasalungat na ugnayan ng presyo at quantity demanded. Maari itong ipakita sa equation na: Qd = a – bP
+</p>
+</div>
+
+<div class="text-box">
+<p>
+Mga Salik na Nakaaapekto sa Demand
+<ul>
+<li>Kita</li>
+<li>presyo</li>
+<li>panlasa</li>
+<li>dami ng mamimimili</li>
+<li>Inahasahan ng mga mamimili sa presyo sa hinaharap</li>
+</ul>
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 2-Supply</div>
+
+<div class="text-box box2">
+<p>
+Ang supply ay tumutukoy sa dami ng produkto o serbisyona handa at kayang ipagbili ng mga prodyuser sa iba’t ibang presyo sa isang takdang panahon.
+</p>
+</div>
+
+<div class="text-box box2">
+<p>
+Isinasaad ng Batas ng Supply na mayroong direkta o positibong ugnayanang presyo sa quantity supplied (qs) ng isang produkto.
+</p>
+</div>
+
+<div class="text-box box2">
+<p>
+Ang supply schedule ay isang talaan na nagpapakita ng dami ng kaya at gustong ipagbili ng mga prodyuser sa iba’t ibang presyo.
+</p>
+</div>
+
+<div class="text-box box2">
+<p>
+<ul>
+<li>Presyo-Quantity Supplied
+<li>5-50</li>
+<li>4-40</li>
+<li>3-30</li>
+<li>2-20</li>
+<li>1-10</li>
+</ul>
+</p>
+</div>
+
+<div class="text-box box2">
+<p>
+Kung ilalapat sa graph ang iba’t ibang kombinasyon ng mga presyo at quantity supplieday mabubuo ang supply curve
+</p>
+</div>
+
+<div class="text-box box2">
+<p>
+Ang supply function ay ang matematikong pagpapakita ng ugnayan ng presyo at quantity supplied. Formula: Qs = a – bP
+</p>
+</div>
+
+<div class="text-box box2">
+<p>
+<ul>
+<li>salik ng supply:</li>
+<li>Pagbabago sa Teknolohiya</li>
+<li>Pagbabago sa Halaga ng mga Salik Produksiyon</li>
+<li>Pagbabago sa Bilang ng mga Nagtitinda</li>
+<li>Pagbabago sa Presyo ng Kaugnay na Produkto</li>
+<li>Ekspektasyon ng Presyo</li>
+</ul>
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 3-Price elasticity</div>
+<div class="text-box box3">
+<p>
+ELASTISIDAD NG DEMAND
+-Ang kurba ng demand ay pabulusok kapag mababa ang halaga ng produkto maraming konsyumer ang makabibili kaya't maraming produkto at serbisyo ang mabibili Subalit kapag ang presyo ay mataas, mababa ang kakayahang makabili o hindi na makabili ang maraming konsyumer. Kapag mababa ang presyo malaki ang demand, subalit kapag mataas ang presyo ay nanaisin na lamang na bumili ng alternatibong pamalit.
+</p>
+</div>
+
+<div class="text-box box3">
+<p>
+ELASTIK
+-kapag mas malaki ang naging bahagdan ng pagtugon ng quantity demanded quantity at supplied kaysa sa bahagdan ng pagbabago ng presyo; /E/> 1 Halimbawa: mga produktong maraming kapalit
+</p>
+</div>
+
+<div class="text-box box3">
+<p>
+DI-ELASTIK
+-Kapag maliit ang naging bahagdan ng pagtugon ng quantity demanded quantity at supplied kaysa sa bahagdan ng pagbabago ng presyo; /E/< 1 Halimbawa: Mga pangunahing pangangailangan at mga produktong halos walang pamalit (gamot)
+</p>
+</div>
+
+<div class="text-box box3">
+<p>
+UNITARY
+-Pareho ang bahagdan ng pagbabago ng presyo sa bahagdan ng quantity demanded at supplied; /E/= 1 Walang tiyak na halimbawa
+</p>
+</div>
+
+<div class="text-box box3">
+<p>
+GANAP ELASTIC NA PERFECTLY ELASTIC
+-Anumang pagbabago sa presyo ay magdudulot ng infinite na pagbabago sa quantity demanded quantity supplied; /E/infinity Halimbawa: Produktong handang bilhin / ibenta ng marami sa isang takdang presyo (chocolate)
+</p>
+</div>
+
+<div class="text-box box3">
+<p>
+GANAP NA DI-ELASTIC I PERFECTLY INELASTIC
+0Nangangahulugan na ang quantity demanded quantity supplied ay hindi tumutugon sa pagbabago ng presyo; /E/0 Halimbawa: Mga produktong lubhang napakahalaga anong presyo ay bibilhin pa rin ang parehong dami (bigas)
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 4-Market Equilibrium</div>
+<div class="text-box">
+<p>EQUILIBRIUM
+-Isang kalagayan na walang sinuman sa mamimili at nagbibili ang gustong baguhin ang sitwasyon sa kasalukuyang pamilihan. Ipinapakita nito ang pagkakasundo ng bumibili at nagbibili sa isang takdang presyo produkto at dami ng produkto
+</p>
+</div>
+
+<div class="text-box">
+<p>LAW OF SUPPLY AND DEMAND
+If price increases: Supply-up Demand-down
+If price decreases: Supply-down Demand-up
+</p>
+</div>
+
+<div class="text-box">
+<p>EQUILIBRIUM
+-Ang dami ng demand ay pantay sa dami ng supply Dami ng Demand = Dami ng Supply
+</p>
+</div>
+
+<div class="text-box">
+<p>DISEQUILIBRIUM
+-Ang dami ng demand ay maaaring kulang o sobra sa dami ng supply< Dami ng Demand not equal sa Dami ng Supply
+</p>
+</div>
+
+<div class="text-box">
+<p>SURPLUS
+-Ang dami ng supply ay marami kung ihahambing sa dami ng demand Dami ng Demand < ng Supply
+</p>
+</div>
+
+<div class="text-box">
+<p>SHORTAGE
+-Ang dami ng demand ay marami mas kung ihahambing sa dami ng supply Dami ng Demand > Dami ng Supply
+</p>
+</div>
+
+<div class="text-box">
+<p>
+<ul>
+<li>MGA KAGANAPAN SA PAGBABAGO SA PAMILIHAN
+<li>Paglipat ng supply curve pakanan subalit walang pagbabago sa demand curve</li>
+<li>Paglipat ng demand curve pakanan subalit walang pagbabago sa supply curve</li>
+<li>Parehas ang paglipat ng demand at supply curve pakanan sa parehas na bahagdan</li>
+<li>Parehas na lumipat ang demand at supply curve pakanan subalit mas malaki ang bahagdan ng pagbabago ng demand kaysa sa supply</li>
+<li>Parehas na lumipat ang demand at supply curve pakanan subalit mas maliit ang bahagdan ng pagbabago ng demand kaysa sa supply</li>
+<li>Parehas na lumipat ang demand at supply curve pakanan subalit mas malaki ang bahagdan ng pagbabago ng supply kaysa sa demand</li>
+<li>Parehas na lumipat ang demand at supply curve pakanan subalit mas maliit ang bahagdan ng pagbabago ng supply kaysa sa demand</li>
+<li>Paglipat ng supply curve pakanan at paglipat ng demand curve pakaliwa sa parehas na bahagdan</li>
+<li>Walang pagbabago sa demand at supply</li>
+</ul>
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 5-Iba't ibang estruktura ng pamilihan
+</div>
+
+<div class="text-box box2">
+<p>
+PAMILIHAN
+-Ang pamilihan ay mahalagang bahagi ng buhay ng prodyuser atkonsyumer. Isang mekanismo o lugar na nagtatagpo ang mga mamimili at nagtitinda ng mga produkto.
+</p>
+</div>
+
+<div class="text-box box2">
+<p>Ang pamilihan ay maaring lokal, panrehiyon, pambansa o pandaigdigan ang lawak.
+</p>
+</div>
+
+<div class="text-box box2">
+<p>GANAP NA KOMPETISYON
+-Ito ang estruktura ng pamilihan na kinikilala bilang modelo o ideal. Sa ilalim ng ganitong sistema, walang sinuman sa prodyuser at konsyumer ang maaaring makakontrol sa takbo ng pamilihan partikular sa presyo.
+</p>
+</div>
+
+<div class="text-box box2">
+
+<p>
+-Maraming maliliit na konsyumer at prodyuser
+-Magkakatulad ang produkto (Homogenous)
+-Malayang paggalaw ng sangkap ng produksiyon
+-Malayang pagpasok at paglabas sa industriya
+-Malaya ang Impormasyon ukol sa pamilihan
+</p>
+</div><br>
+
+<div class="section-title">Pamilihang may hindi ganap na kompetisyon
+</div>
+
+<div class="text-box box2">
+<p>MONOPOLYO
+-Ito ay ang uri ng pamilihan na iisa lamang ang prodyuser na gumagawa ng produkto at nagbibigay-serbisyo kung kaya’t walang pamalit o kahalili
+</p>
+</div>
+
+<div class="text-box box2">
+<p>MONOPSONYO
+-Sa ganitong uri ng pamilihan, mayroon lamang iisang konsyumer ngunit maraming prodyuser ng produkto at serbisyo.
+</p>
+</div>
+
+<div class="text-box box2">
+<p>OLIGOPOLYO
+-Ito ay isang uri ng estruktura ng pamilihan na may maliit na bilang o iilan lamang na prodyuser ang nagbebenta ng magkakatulad o magkakaugnay na produkto at serbisyo.
+</p>
+</div>
+
+<div class="text-box box2">
+<p>MONOPOLISTIC COMPETITION
+-Sa ilalim ng ganitong uri ng estruktura ng pamilihan, maraming kalahok na prodyuser ang nagbebenta ng mga produkto sa pamilihan subalit marami rin ang mga konsyumer.
+</p>
+</div>
+</section>
+
+<section>
+<div class="section-title">LESSON 6-Bahaging ginagampanan ng pamahalaan sa relasyon ng mga pamilihian</div>
+<div class="text-box box3">
+<p>PRICE CONTROL
+-Ang pagtatadhana pamahalaan pinakamababa ng ng at pinakamataas na presyong maaaring itakda sa mga produkto at serbisyo.
+</p>
+</div>
+
+<div class="text-box box3">
+<p>PRICE CEILING
+-Ito ay kilala rin sa katawagan bilang maximum price policy o ang pinakamataas na presyo na maaaring ipagbili ng isang prodyuser ang kaniyang produkto
+</p>
+</div>
+
+<div class="text-box box3">
+<p>EPEKTO NG PIRCE CEILING:
+MABUTI:
+Mababang presyo ng mga bilihin.
+Kasiguruhan sa mga mamimili.
+DI-MABUTI:
+Pagbaba ng Supply
+Nagiging dahilan ng Kakulangan
+Nagiging dahilan ng pagkakaroon ng mga ilegal na pamilihan (black market)
+</p>
+</div>
+
+<div class="text-box box3">
+<p>PRICE FLOOR
+-Ito ay kilala rin bilang price support at minimum price policy na tumutukoy sa pinakamababang presyo na itinakda ng batas sa mga produkto at serbisyo.
+</p>
+</div>
+
+<div class="text-box box3">
+<p>EPEKTO NG PRICE FLOOR:
+MABUTI:
+Mas mataas na sahod sa mga manggagawa
+Mas malaking tubo sa mga nagtitinda
+DI-MABUTI:
+Mas mataas na presyo ng bilihin
+Maaring maging dahilan ng kalabisan ng kalakal
+Mas mababang demand ng mga bilihin
+</p>
+</div>
+
+<div class="text-box box3">
+<p>SUGGESTED RETAIL PRICE
+-Presyong itinakda ng pamahalaan para sa isang kalakal.
+</p>
+</div>
+
+<div class="text-box box3">
+<p>PRICE FREEZE
+-Pagbabawal sa pagtataas ng presyo sa pamilihan
+</p>
+</div>
+
+<div class="text-box box3">
+<p>PRICE SUPPORT
+-Ito ay paraan ng pamahalaan na bigyan ng tulong ang mga negosyante upang maiwasan ang pagkalugi o mabawasan ang kita
+</p>
+</div>
+</section>
+
+ <button onclick="history.back()">⬅ Back</button>
+
+    <!-- Home Button -->
+    <a href="eport4th.html">
+        <button>🏠 Home</button>
+    </a>
+
+</body>
+</html>
